@@ -1,0 +1,47 @@
+# MOVE OVER GRAPHITE PROMETHEUS IS HERE
+- Micheal Heap
+- prometheus
+- cloud native computing foundation
+- How does it work?
+	-  pulls metrics
+	-  disk storage / default stores 15 days of metrics
+	-  Efficient collection
+	-  Consul Integration
+	-  Prometheus yaml
+-  Node Exporter
+	-  exposes metrics
+-  create your own metrics
+-  Things to know
+	- 5-10 labels is bad
+	- secure /metrics endpoint
+- MEtric types
+	- Counters
+		- user for counting events that happen and query using rate()
+	- Gauges
+		- 
+	- Histograms
+		- 
+	- summaries `custom histograms`
+
+- promql
+	- prometheus query language
+- Grafana
+	- graph GUI for prometheus
+- Version 5
+	- importer for configurations
+Alertmanager
+	- tells you when something goes wrong
+	- seperate binary from prometheus
+	- rules
+- Alertmanager Alerts
+	- can trigger pager duty/slack integration/etc ...
+	- ingester
+	- deduplicates
+	- silencer
+	- throttler
+	- notifier
+	- grouper
+- Does it scale?
+	-  yes
+	-  federtes
+	-  gossips(enables multi instances to trigger notifications)
