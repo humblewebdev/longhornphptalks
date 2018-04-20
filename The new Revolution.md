@@ -1,0 +1,14 @@
+# The new Revolution
+- Samantha Quinones
+- Bob Taylor
+	- information techniques officer
+	- task with how information can be used
+	- 1960 time sharing was what was used before queueing
+		- gave users the impression they have their own computer
+	- Bob would connect with the systems throughout the country
+	- Bob felt if we could connect this systems together it would be super valuable
+	- This system bob called arpanet.
+	- Humans did complex calculations
+	- Computers were used to replace the processing of calculations
+	- IMP (Interface Message Processor)
+	- Genie computer one of the first computer with virtual memory

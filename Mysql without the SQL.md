@@ -1,0 +1,17 @@
+# Mysql without the SQL
+- Dave Stokes
+- DML, DDL and SQL
+- 2% of developers have formal training
+- ORMS do too much or too little
+- MySQL document store
+	- use new XDevAPI 
+	- harder to do sql injection
+	- can extract and index columns
+	- new shell
+	- non-blocking, async calls
+	- modern practices
+	- can install on mysql 5.7 with a command
+	- already install on 5.8
+	- `db.countryinfo.find('geography).fields('[""]')
+	- you can index json parameters
+	- 
