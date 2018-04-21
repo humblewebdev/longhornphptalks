@@ -1,0 +1,31 @@
+# Many layers of OAuth
+- Keith Casey
+- Agenda
+	- Assumptions
+		- security is an imprtany pary of your job
+			- You are probably using OAuth
+			- you might be building OAuth servers
+			- all the specs drive you nuts
+		- Nothin is perfec
+			- you make mistakes
+			- your providers make mistakes
+			- that other team are all knuckleheads
+	- What problems are we solving
+		- Auth is essentially a hotel key card
+	- AuthN vs AuthZ all the things
+		- Authenticattion is who you are
+		- Authorization is what you are allowed to do
+			- heavily based on context
+	- Specifications
+		- enpoints
+			- `/authorize`
+			- `/token`
+			- `/introspec`
+			- `/revoke`
+			- `/logout`
+			- `/keys`
+			- `/userinfo`
+			- `/.well-known/openid-configuration`
+	- Threat/Attack Vectors
+		- Auth_Code
+		- JWT token audience vulnerability
